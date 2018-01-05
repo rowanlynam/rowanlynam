@@ -1,0 +1,203 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>
+      W3.CSS Template3
+    </title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content=
+    "width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href=
+    "https://www.w3schools.com/w3css/4/w3.css" type="text/css" />
+    <link rel="stylesheet" href=
+    "https://fonts.googleapis.com/css?family=Lato" type=
+    "text/css" />
+    <link rel="stylesheet" href=
+    "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    type="text/css" />
+    <style type="text/css">
+/*<![CDATA[*/
+    body,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+    body, html {
+    height: 100%;
+    color: #777;
+    line-height: 1.8;
+    }
+    /* Create a Parallax Effect */
+    .bgimg-1{
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+    /* First image (POETRY. Full height) */
+    .bgimg-1{
+         -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    background-image:url("https://i.imgur.com/c0oOD90.jpg");
+    min-height: 100%;
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    }
+
+    figure{
+      background-size: cover;
+      width: 100%;
+      margin-left: 0px;
+      margin-right: 0px;
+      padding-left: 0px;
+      padding-right: 0px;
+      border-left: 0px;
+      border-right: 0px;
+    }
+
+    .w3-wide {letter-spacing: 10px;}
+    .w3-hover-opacity {cursor: pointer;}
+
+    /* Turn off parallax scrolling for tablets and phones */
+    @media only screen and (max-device-width: 1024px) {
+    .bgimg-main {
+        background-attachment: scroll;
+    }
+    }
+    </style>
+  </head>
+  <body>
+    <figure>
+  </div><!-- First Parallax Image with Logo Text -->
+  <div class="bgimg-1 w3-display-container w3-opacity-min" id=
+  "home">
+    <div class="w3-display-middle" style="white-space:nowrap;">
+      <span class=
+      "w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">
+      RECENT <span class="w3-hide-small">POETRY</span></span>
+    </div>
+    <!-- Navbar (sit on top) -->
+    <div class="w3-top">
+      <div class="w3-bar w3-black" id="myNavbar">
+        <a class=
+        "w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right"
+        href="javascript:void(0);" onclick="toggleFunction()"
+        title="Toggle Navigation Menu"></a>
+
+        <a href= "personalsite.html" class="w3-bar-item w3-button">HOME</a>
+        <a href="personalsitejournalism.html" class=
+        "w3-bar-item w3-button w3-hide-small">JOURNALISM</a>
+        <a href="personalsitepoetry.html" class=
+        "w3-bar-item w3-button w3-hide-small">POETRY</a> <a href=
+        "personalsitevisualmedia.html" class=
+        "w3-bar-item w3-button w3-hide-small">VISUALMEDIA</a>
+        <a href="#contact" class=
+        "w3-bar-item w3-button w3-hide-small">CONTACT</a> <a href=
+        "#" class=
+        "w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
+        </a>
+      </div><!-- Navbar on small screens -->
+      <div id="navDemo" class=
+      "w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+        <a href="personalsite.html" class=
+        "w3-bar-item w3-button">HOME</a> <a href=
+        "personalsitejournalism.html" class=
+        "w3-bar-item w3-button w3-hide-small">JOURNALISM</a>
+        <a href="personalsitepoetry.html" class=
+        "w3-bar-item w3-button w3-hide-small">POETRY</a> <a href=
+        "personalsitevisualmedia.html" class=
+        "w3-bar-item w3-button w3-hide-small">VISUALMEDIA</a>
+        <a href="#contact" class="w3-bar-item w3-button" onclick=
+        "toggleFunction()">CONTACT</a> <a href="#" class=
+        "w3-bar-item w3-button">SEARCH</a>
+    </figure>
+
+      </div><!-- Container (Portfolio Section) -->
+      <div class="w3-content w3-container w3-padding-64" id=
+      "portfolio">
+        <h3 class="w3-center">
+          MY WORK
+        </h3>
+        <p class="w3-center">
+          <em>Current poetry projects, readings,  and where you can find my
+          published work.</em>
+        </p>
+        <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+        <div class="w3-row-padding w3-center">
+          <div class="w3-col m3">
+            <img src="https://i.imgur.com/eB0nQ8O.png" style=
+            "width:100%" onclick="onClick(this)" class=
+            "w3-hover-opacity" alt="The mist over the mountains" />
+            <a href="https://issuu.com/cuchronicle/docs/chronicle_layout_spring_2016" >Chronicle 2016</a>
+          </div>
+          <div class="w3-col m3">
+            <img src="https://i.imgur.com/eB0nQ8O.png" style=
+            "width:100%" onclick="onClick(this)" class=
+            "w3-hover-opacity" alt="Coffee beans" />
+              <a href="https://www.zpublishinghouse.com/blogs/upcoming-books" >Z Publishing House</a>
+          </div>
+          <div class="w3-col m3">
+            <img src="https://i.imgur.com/eB0nQ8O.png" style=
+            "width:100%" onclick="onClick(this)" class=
+            "w3-hover-opacity" alt="Bear closeup" />
+            <a href="http://www.artandwriting.org/explore/online-galleries/#subset=6&writing=All&future_new=All&art_portfolio=false&writing_portfolio=false&year=2014&state=SC&awards=All&grade=0" >Scholastic Art and Writing</a>
+
+          </div>
+          <div class="w3-col m3">
+            <img src="https://i.imgur.com/eB0nQ8O.png" style=
+            "width:100%" onclick="onClick(this)" class=
+            "w3-hover-opacity" alt="Quiet ocean" />
+            <a href="https://issuu.com/cuchronicle/docs/chronicle_fall_2014">Chronicle 2014</a>
+          </div>
+        </div><!-- Container (Poetry Section) -->
+        <div class="w3-content w3-container w3-padding-64" id=
+        "poetry">
+          <h3 class="w3-center">
+            KAREN DOESN'T BELIEVE IN OBJECTIVE SCIENCE
+          </h3>
+          <p class="w3-center"></p>
+          <p>
+            <em>NARRATION:</em>
+          </p>
+          <p>
+            <em>There is</em>
+          </p>
+          <p>
+            <em>no light here – palmed the evening and a month’s
+            prescription, set them cooling</em>
+          </p>
+          <p>
+            <em>over the eyelid, so that it was heavy the room
+            undone by overhead</em>
+          </p>
+          <p>
+            <em>fan and the distant siren this the afterlife of
+            mermaid song</em>
+          </p>
+          <p>
+            <em>that unmoored ships</em>
+          </p>
+          <p>
+            <em>drifting</em>
+          </p>
+          <p>
+            <em>water risen to the upper lip</em>
+          </p>
+          <p>
+            <em>lulled</em>
+          </p>
+          <p>
+            <em>to</em>
+          </p>
+          <p>
+            <em>sleep</em>
+          </p>
+          <p>
+            <em>in the dark</em>
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
